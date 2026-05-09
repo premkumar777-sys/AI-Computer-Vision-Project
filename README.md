@@ -98,9 +98,9 @@ Screenshots
 
 Example:
 
-![Face Detection]  (face.jpeg)
+![Face Detection](Images/face.jpeg)
 
-![Finger Counter]  (finger.jpeg)
+![Finger Counter](Images/finger.jpeg)
 
 Author
 Prem Kumar
