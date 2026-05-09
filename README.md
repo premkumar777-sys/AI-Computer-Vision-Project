@@ -59,7 +59,7 @@ py -3.10 pose.py
 Installation
 
 Clone the repository:
-git clone https://github.com/your-username/AI-Computer-Vision-Projects.git
+git clone https:(https://github.com/premkumar777-sys/AI-Computer-Vision-Project)
 
 Move into the project folder:
 cd AI-Computer-Vision-Projects
