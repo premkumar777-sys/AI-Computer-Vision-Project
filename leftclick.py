@@ -18,11 +18,6 @@ screen_width, screen_height = pyautogui.size()
 
 click_delay = 0
 
-# Create fullscreen window
-window_name = "Virtual Mouse"
-cv2.namedWindow(window_name, cv2.WINDOW_NORMAL)
-cv2.setWindowProperty(window_name, cv2.WND_PROP_FULLSCREEN, cv2.WINDOW_FULLSCREEN)
-
 while True:
 
     success, img = cap.read()
@@ -109,7 +104,7 @@ while True:
     if click_delay > 10:
         click_delay = 0
 
-    cv2.imshow(window_name, img)
+    cv2.imshow("Virtual Mouse", img)
 
     key = cv2.waitKey(1)
 
