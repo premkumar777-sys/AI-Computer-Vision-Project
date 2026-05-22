@@ -22,6 +22,11 @@ canvas = None
 prev_x = 0
 prev_y = 0
 
+# Create fullscreen window
+window_name = "Air Drawing with Eraser"
+cv2.namedWindow(window_name, cv2.WINDOW_NORMAL)
+cv2.setWindowProperty(window_name, cv2.WND_PROP_FULLSCREEN, cv2.WINDOW_FULLSCREEN)
+
 while True:
 
     success, img = cap.read()
@@ -129,7 +134,7 @@ while True:
     img = cv2.add(img, canvas)
 
     # Show window
-    cv2.imshow("Air Drawing with Eraser", img)
+    cv2.imshow(window_name, img)
 
     key = cv2.waitKey(1)
 
